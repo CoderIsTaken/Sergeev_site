@@ -1,10 +1,55 @@
-body
-{
+body{
 	margin: 0 0;
 	background-color: #141414;
 }
 
-div.header
+div.logo{
+	height: 115px;
+	width: 100%;
+	background-image: url(img/lg.png);
+	background-size: cover;
+}
+
+div.lgwr{
+	color: #d3d3d3;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.SERGEEV{
+	font-size: 60px;
+}
+
+div.PRAY{
+	font-size: 30px;
+	font-family: 'Parsek', arial;
+}
+
+div.menubg{
+	background-color: #282828;
+}
+
+div.menubar{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	font-size: 30px;
+	color: #d3d3d3;
+}
+
+ul > li {
+	display: inline;
+	list-style: none;
+	padding: 26px;
+}
+
+li.marked{
+	color: #ff0000;
+}
+
+/*div.header
 {
 	height: 100px;
 	background-color: #282828;
