@@ -74,6 +74,11 @@ div.shop{
 	margin-right: auto;
 	display: block
 }
+
+a{
+	 text-decoration: none;
+	 color: #d3d3d3;
+}
 /*div.header
 {
 	height: 100px;
