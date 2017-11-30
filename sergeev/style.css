@@ -34,7 +34,7 @@ div.menubg{
 div.menubar{
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	text-align: center;
 	width: 960px;
 	font-size: 30px;
 	color: #d3d3d3;
@@ -43,7 +43,7 @@ div.menubar{
 ul > li {
 	display: inline;
 	list-style: none;
-	padding: 26px;
+	padding: 37px;
 }
 
 li.marked{
@@ -55,16 +55,11 @@ ul, li {
     margin: 0; 
 }
 
-p.discription{
-	color: #d3d3d3;
-	font-size: 25px;
-}
-
 div.background_discr{
-	height: 850px;
-	width: 100%;
-	background-image: url(img/discription_img.png);
-	background-size: cover;
+ 	padding: 0 0;
+ 	width: 960px;
+ 	margin-left: auto;
+ 	margin-right: auto;
 }
 
 div.shop{
@@ -79,6 +74,27 @@ a{
 	 text-decoration: none;
 	 color: #d3d3d3;
 }
+
+div#rotator{
+	position: relative; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+div#rotator ul li{
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute; 
+	list-style: none;
+	display: block;
+	padding: 0 0;
+}
+
+div#rotator ul li.show{
+	z-index:500;
+}
+
 /*div.header
 {
 	height: 100px;
