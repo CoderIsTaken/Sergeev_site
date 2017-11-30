@@ -54,6 +54,22 @@ ul, li {
     margin: 0; 
 }
 
+p.discription{
+	color: #d3d3d3;
+	font-size: 25px;
+}
+
+div.background_discr{
+	height: 850px;
+	width: 100%;
+	background-image: url(img/discription_img.png);
+	background-size: cover;
+}
+
+table.shop{
+	margin-top: 20px;
+	width: 100%;
+}
 /*div.header
 {
 	height: 100px;
