@@ -1,0 +1,28 @@
+body
+{
+	margin: 0 0;
+	background-color: #141414;
+}
+
+div.header
+{
+	height: 100px;
+	background-color: #282828;
+	text-decoration-color: #d3d3d3;
+	font-size: 40px;
+}
+
+div.gg
+{
+	color: #d3d3d3;
+}
+
+div.gf
+{
+	color: #ff0000;
+}
+
+div.bodier
+{
+	font-size: 40px;
+}
