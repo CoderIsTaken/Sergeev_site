@@ -19,10 +19,17 @@ div.gg
 
 div.gf
 {
-	color: #ff0000;
+	color: #d3d3d3;
+	font-size: 15px;
 }
 
 div.bodier
 {
 	font-size: 40px;
+}
+
+div.gn
+{
+	color: #ff0000;
+	font-size: 15px;
 }
