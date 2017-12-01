@@ -1,6 +1,6 @@
 body{
 	margin: 0 0;
-	background-color: #141414;
+	background-color: #282828;
 }
 
 div.logo{
@@ -28,7 +28,7 @@ div.PRAY{
 }
 
 div.menubg{
-	background-color: #282828;
+	background-color: #141414;
 }
 
 div.menubar{
@@ -89,10 +89,24 @@ div#rotator ul li{
 	list-style: none;
 	display: block;
 	padding: 0 0;
+	padding-top: 10px;
 }
 
 div#rotator ul li.show{
 	z-index:500;
+}
+
+video.vid{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 560px;
+}
+
+div.colont{
+	background-color: #141414;
+	height: 100px;	
+	margin-top: 10px;
 }
 
 /*div.header
