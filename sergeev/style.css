@@ -77,6 +77,7 @@ div.shop{
 a{
 	 text-decoration: none;
 	 color: #d3d3d3;
+	 transition: color 256ms;
 }
 
 div#rotator{
@@ -132,13 +133,40 @@ img.vk_inst{
 	max-height:60px;
 }
 
-img.shop_img{
+div.price{
 	opacity: 1.0;
 	transition: opacity 256ms;
 }
 
-img.shop_img:hover{
+div.price:hover{
 	opacity: 0.5;
+}
+
+div.price{
+	display:inline-block;   
+    position:relative;
+}
+
+span{
+-ms-user-select: none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+
+    position:absolute;
+    top:8px;   
+    left:4px;
+     
+    color:#d3d3d3;
+	font-family: 'Parsek', arial;
+    font-size:20px; 
+     
+    border-radius: 100px;
+    border: 3px solid #141414;
+    background-color: #141414;
+    padding:5px 20px;
+
+    overflow:hidden;
 }
 
 
