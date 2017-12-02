@@ -204,6 +204,42 @@ span{
     overflow:hidden;
 }
 
+table.goods{
+	padding: 0 0;
+ 	width: 960px;
+ 	margin-top: 20px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+img.goods_img{
+	border: 3px solid #000000;
+	max-width: 360px;
+	max-height:auto;
+}
+span.buy{
+	display:inline-block;   
+    position:relative;
+    opacity: 1.0;
+    transition: opacity 256ms;
+}
+
+span.buy:hover{
+	opacity: 0.7;
+}
+
+td.buy_td{
+	padding: 5px;
+}
+
+h1{
+	color: #d3d3d3;
+}
+
+p{
+	color: #d3d3d3;
+}
+
 
 /*div.header
 {
@@ -234,3 +270,5 @@ div.gn
 	color: #ff0000;
 	font-size: 15px;
 }
+
+
