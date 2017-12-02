@@ -101,6 +101,13 @@ div#rotator ul li.show{
 	z-index:500;
 }
 
+iframe.vid{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 560px;
+}
+
 video.vid{
 	display: block;
 	margin-right: auto;
@@ -109,10 +116,13 @@ video.vid{
 }
 
 div.colont{
-	background-color: #141414;
+	background-color: #000;
 	height: 100px;	
 	margin-top: 10px;
+	color: #d3d3d3;
 }
+
+
 
 a:hover{
 	color: #FFFFFF;
@@ -123,6 +133,7 @@ img.shop_img{
 	max-width:370px;
 	max-height:500px;
 }
+
 td{
 		padding: 50px;
 
