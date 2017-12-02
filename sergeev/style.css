@@ -117,7 +117,7 @@ a:hover{
 	color: #FFFFFF;
 }
 
-img.bord{
+img.shop_img{
 	border: 3px solid #000000;
 	max-width:370px;
 	max-height:500px;
@@ -130,6 +130,15 @@ td{
 img.vk_inst{
 	max-width:60px;
 	max-height:60px;
+}
+
+img.shop_img{
+	opacity: 1.0;
+	transition: opacity 256ms;
+}
+
+img.shop_img:hover{
+	opacity: 0.5;
 }
 
 
